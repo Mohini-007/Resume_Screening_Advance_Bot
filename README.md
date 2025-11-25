@@ -57,7 +57,7 @@ export OPENAI_API_KEY="your_api_key"  # Linux/macOS
 setx OPENAI_API_KEY "your_api_key"    # Windows
 
 # 5. Run the Streamlit app
-streamlit run app.py
+streamlit run bot.py
 ```
 
 ---
@@ -77,7 +77,7 @@ streamlit run app.py
 ```
 Resume-Screening-Bot/
 │
-├─ app.py                  # Streamlit frontend
+├─ bot.py                  # Streamlit frontend
 ├─ resume_screening.py     # Resume parsing, scoring, recommendations
 ├─ requirements.txt        # Python dependencies
 ├─ top_resumes/            # Folder for top resumes
